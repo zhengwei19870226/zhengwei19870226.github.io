@@ -62,9 +62,9 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world的副本" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/10/16/hello-world的副本/" class="article-date">
+    <a href="/2018/10/16/hello-world/" class="article-date">
   <time datetime="2018-10-16T04:07:49.476Z" itemprop="datePublished">2018-10-16</time>
 </a>
     
@@ -76,7 +76,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/16/hello-world的副本/">正则表达式</a>
+      <a class="article-title" href="/2018/10/16/hello-world/">Hello World</a>
     </h1>
   
 
@@ -84,17 +84,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="创建正则表达式"><a href="#创建正则表达式" class="headerlink" title="创建正则表达式"></a>创建正则表达式</h3><p>两种方式：</p>
-<p>正则表达式字面量</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const regex = /^[a-z]+$/gi;</span><br></pre></td></tr></table></figure>
-<p>调用RegExp对象的构造函数 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">let = new RegExp(/^[a-z]+$/, &quot;gi&quot;)</span><br></pre></td></tr></table></figure>
-<p>正则表达式可以被用于RegExp的exec和test方法以及 String的match、replace、search和split方法。</p>
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/16/hello-world的副本/" data-id="cjoxp4m5k0000tw5uknehbjvg" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/16/hello-world/" data-id="cjoxp696m0000ue5ugnfqm2rv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -104,9 +107,9 @@
 
 
   
-    <article id="post-设计模式之观察者模式" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-前端测试" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/10/16/设计模式之观察者模式/" class="article-date">
+    <a href="/2018/10/16/前端测试/" class="article-date">
   <time datetime="2018-10-16T04:07:49.476Z" itemprop="datePublished">2018-10-16</time>
 </a>
     
@@ -118,7 +121,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/16/设计模式之观察者模式/">设计模式之 观察者模式</a>
+      <a class="article-title" href="/2018/10/16/前端测试/">前端测试</a>
     </h1>
   
 
@@ -126,20 +129,44 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>观察者模式中，用一个对象（称之为主体）维护观察者列表，自动的通知他们状态的任何变化。</p>
-<p>观察者模式主要实现以下几个组件：</p>
+        <p>本文主要整理了前端测试中常会用到的断言库和测试框架，是一篇概括性的文章，后续会有博客更新每一块的深入学习总结。</p>
+<h3 id="1-断言库"><a href="#1-断言库" class="headerlink" title="1 断言库"></a>1 断言库</h3><h4 id="1-1-Node-assert"><a href="#1-1-Node-assert" class="headerlink" title="1.1 Node assert"></a>1.1 Node assert</h4><p>assert模块是Node的内置模块，主要用于断言。如果表达式不符合预期，就抛出一个错误。</p>
+<p>Assert模块方法列表：</p>
 <ul>
-<li>主体：用来维护观察者列表，便于添加或删除观察者</li>
-<li>观察者：为需要通知主体状态变化的对象提供更新接口</li>
-<li>具体主体：向观察者广播关于状态变化的通知，存储具体主体的状态</li>
-<li>具体观察者：存储对具体主体的引用，实现观察者的更新接口以确保状态与主体一致。</li>
+<li>assert(value[, message])<br>assert.ok()的别名</li>
+<li>assert.ok(value[, message])</li>
+<li>assert.deepEqual(actual, expected[, message])</li>
+<li>assert.deepStrictEqual(actual, expected[, message])</li>
+<li>assert.doesNotReject(asyncFn[, error][, message])</li>
+<li>assert.doesNotThrow(fn[, error][, message])</li>
+<li>assert.equal(actual, expected[, message])</li>
+<li>assert.fail([message])</li>
+<li>assert.ifError(value)</li>
+<li>assert.notDeepEqual(actual, expected[, message])</li>
+<li>assert.notDeepStrictEqual(actual, expected[, message])</li>
+<li>assert.notEqual(actual, expected[, message])</li>
+<li>assert.notStrictEqual(actual, expected[, message])</li>
+<li>assert.rejects(asyncFn[, error][, message])</li>
+<li>assert.strictEqual(actual, expected[, message])</li>
+<li>assert.throws(fn[, error][, message])</li>
 </ul>
-<h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript" target="_blank" rel="noopener">js设计模式</a></p>
+<p>各方法参数详细说明及用法稍后补充，可先参考官网 <a href="http://nodejs.cn/api/assert.html" target="_blank" rel="noopener">http://nodejs.cn/api/assert.html</a></p>
+<h4 id="should-js"><a href="#should-js" class="headerlink" title="should.js"></a>should.js</h4><p>BDD使用的断言库<br>api参考博客<a href="http://shouldjs.github.io/" target="_blank" rel="noopener">http://shouldjs.github.io/</a></p>
+<h3 id="2-测试工具"><a href="#2-测试工具" class="headerlink" title="2 测试工具"></a>2 测试工具</h3><p>JavaScript 是动态语言，缺乏静态类型检查，所以在代码编译期间，很难发现像变量名写错，调用不存在的方法等错误，只有在运行时才能暴露出来，所以非常有必要有一个测试工具来验证你的代码。</p>
+<h5 id="2-1-Mocha"><a href="#2-1-Mocha" class="headerlink" title="2.1 Mocha"></a>2.1 Mocha</h5><p>Mocha官网：<a href="https://mochajs.org/" target="_blank" rel="noopener">https://mochajs.org/</a><br>Mocha 是现在最流行的JavaScript测试框架之一，在浏览器和Node环境都可以使用。</p>
+<p>Mocha的作用是运行测试脚本，首先必须学会写测试脚本。</p>
+<p>测试脚本里面应该包括一个或多个describe块，每个describe块应该包括一个或多个it块。</p>
+<p>脚本文件如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// add.test.js</span><br><span class="line">var assert = require(&apos;assert&apos;)</span><br><span class="line"></span><br><span class="line">describe(&apos;Array&apos;, function() &#123;</span><br><span class="line">  describe(&apos;#indexOf()&apos;, function() &#123;</span><br><span class="line">    it(&apos;should return -1 when the value is not present&apos;, function() &#123;</span><br><span class="line">      assert.equal(-1, [1, 2, 3].indexOf(4))</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h5 id="2-2-Karma"><a href="#2-2-Karma" class="headerlink" title="2.2 Karma"></a>2.2 Karma</h5><p>karma 是angular.js团队开发的基于node.js的Javascript测试运行环境，它是一个 runner ， 旨在帮助开发者简单而又快速的进行自动化单元测试。</p>
+<p>Karma官网：<a href="https://karma-runner.github.io/latest/index.html" target="_blank" rel="noopener">https://karma-runner.github.io/latest/index.html</a></p>
+<p>karma配置中文API：<br><a href="https://blog.csdn.net/maomaolaoshi/article/details/78542837" target="_blank" rel="noopener">https://blog.csdn.net/maomaolaoshi/article/details/78542837</a></p>
+<p>对于Karma的深入学习参考淘宝前端端对博客：<br><a href="http://taobaofed.org/blog/2016/01/08/karma-origin/" target="_blank" rel="noopener">http://taobaofed.org/blog/2016/01/08/karma-origin/</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/16/设计模式之观察者模式/" data-id="cjoxp4m5z0001tw5uirji91id" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/16/前端测试/" data-id="cjoxp696r0001ue5uchozxt18" class="article-share-link">Share</a>
       
       
     </footer>
@@ -302,121 +329,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/16/this/" data-id="cjoxp4m600002tw5ui9sa57e4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/10/16/hello-world/" class="article-date">
-  <time datetime="2018-10-16T04:07:49.475Z" itemprop="datePublished">2018-10-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/16/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/16/hello-world/" data-id="cjo294p6t0000hr5u8vc4uh80" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-前端测试" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/10/16/前端测试/" class="article-date">
-  <time datetime="2018-10-16T04:07:49.475Z" itemprop="datePublished">2018-10-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/16/前端测试/">前端测试</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>本文主要整理了前端测试中常会用到的断言库和测试框架，是一篇概括性的文章，后续会有博客更新每一块的深入学习总结。</p>
-<h3 id="1-断言库"><a href="#1-断言库" class="headerlink" title="1 断言库"></a>1 断言库</h3><h4 id="1-1-Node-assert"><a href="#1-1-Node-assert" class="headerlink" title="1.1 Node assert"></a>1.1 Node assert</h4><p>assert模块是Node的内置模块，主要用于断言。如果表达式不符合预期，就抛出一个错误。</p>
-<p>Assert模块方法列表：</p>
-<ul>
-<li>assert(value[, message])<br>assert.ok()的别名</li>
-<li>assert.ok(value[, message])</li>
-<li>assert.deepEqual(actual, expected[, message])</li>
-<li>assert.deepStrictEqual(actual, expected[, message])</li>
-<li>assert.doesNotReject(asyncFn[, error][, message])</li>
-<li>assert.doesNotThrow(fn[, error][, message])</li>
-<li>assert.equal(actual, expected[, message])</li>
-<li>assert.fail([message])</li>
-<li>assert.ifError(value)</li>
-<li>assert.notDeepEqual(actual, expected[, message])</li>
-<li>assert.notDeepStrictEqual(actual, expected[, message])</li>
-<li>assert.notEqual(actual, expected[, message])</li>
-<li>assert.notStrictEqual(actual, expected[, message])</li>
-<li>assert.rejects(asyncFn[, error][, message])</li>
-<li>assert.strictEqual(actual, expected[, message])</li>
-<li>assert.throws(fn[, error][, message])</li>
-</ul>
-<p>各方法参数详细说明及用法稍后补充，可先参考官网 <a href="http://nodejs.cn/api/assert.html" target="_blank" rel="noopener">http://nodejs.cn/api/assert.html</a></p>
-<h4 id="should-js"><a href="#should-js" class="headerlink" title="should.js"></a>should.js</h4><p>BDD使用的断言库<br>api参考博客<a href="http://shouldjs.github.io/" target="_blank" rel="noopener">http://shouldjs.github.io/</a></p>
-<h3 id="2-测试工具"><a href="#2-测试工具" class="headerlink" title="2 测试工具"></a>2 测试工具</h3><p>JavaScript 是动态语言，缺乏静态类型检查，所以在代码编译期间，很难发现像变量名写错，调用不存在的方法等错误，只有在运行时才能暴露出来，所以非常有必要有一个测试工具来验证你的代码。</p>
-<h5 id="2-1-Mocha"><a href="#2-1-Mocha" class="headerlink" title="2.1 Mocha"></a>2.1 Mocha</h5><p>Mocha官网：<a href="https://mochajs.org/" target="_blank" rel="noopener">https://mochajs.org/</a><br>Mocha 是现在最流行的JavaScript测试框架之一，在浏览器和Node环境都可以使用。</p>
-<p>Mocha的作用是运行测试脚本，首先必须学会写测试脚本。</p>
-<p>测试脚本里面应该包括一个或多个describe块，每个describe块应该包括一个或多个it块。</p>
-<p>脚本文件如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// add.test.js</span><br><span class="line">var assert = require(&apos;assert&apos;)</span><br><span class="line"></span><br><span class="line">describe(&apos;Array&apos;, function() &#123;</span><br><span class="line">  describe(&apos;#indexOf()&apos;, function() &#123;</span><br><span class="line">    it(&apos;should return -1 when the value is not present&apos;, function() &#123;</span><br><span class="line">      assert.equal(-1, [1, 2, 3].indexOf(4))</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<h5 id="2-2-Karma"><a href="#2-2-Karma" class="headerlink" title="2.2 Karma"></a>2.2 Karma</h5><p>karma 是angular.js团队开发的基于node.js的Javascript测试运行环境，它是一个 runner ， 旨在帮助开发者简单而又快速的进行自动化单元测试。</p>
-<p>Karma官网：<a href="https://karma-runner.github.io/latest/index.html" target="_blank" rel="noopener">https://karma-runner.github.io/latest/index.html</a></p>
-<p>karma配置中文API：<br><a href="https://blog.csdn.net/maomaolaoshi/article/details/78542837" target="_blank" rel="noopener">https://blog.csdn.net/maomaolaoshi/article/details/78542837</a></p>
-<p>对于Karma的深入学习参考淘宝前端端对博客：<br><a href="http://taobaofed.org/blog/2016/01/08/karma-origin/" target="_blank" rel="noopener">http://taobaofed.org/blog/2016/01/08/karma-origin/</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/16/前端测试/" data-id="cjo294p700001hr5uwf3wn0ms" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/16/this/" data-id="cjoxp696v0002ue5uqewoqdt3" class="article-share-link">Share</a>
       
       
     </footer>
@@ -457,23 +370,15 @@
       <ul>
         
           <li>
-            <a href="/2018/10/16/hello-world的副本/">正则表达式</a>
-          </li>
-        
-          <li>
-            <a href="/2018/10/16/设计模式之观察者模式/">设计模式之 观察者模式</a>
-          </li>
-        
-          <li>
-            <a href="/2018/10/16/this/">this深入学习</a>
-          </li>
-        
-          <li>
             <a href="/2018/10/16/hello-world/">Hello World</a>
           </li>
         
           <li>
             <a href="/2018/10/16/前端测试/">前端测试</a>
+          </li>
+        
+          <li>
+            <a href="/2018/10/16/this/">this深入学习</a>
           </li>
         
       </ul>
